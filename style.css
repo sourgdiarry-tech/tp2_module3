@@ -1,0 +1,175 @@
+:root {
+    --bleu: #1d4ed8;
+    --bleu-clair: #dbeafe;
+    --vert: #15803d;
+    --vert-clair: #dcfce7;
+    --rouge: #b91c1c;
+    --rouge-clair: #fee2e2;
+    --gris: #475569;
+    --fond: #f1f5f9
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--fond);
+    color: #0f172a;
+    line-height: 1.45
+}
+
+header {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: #fff;
+    padding: 2rem 1.5rem
+}
+
+header h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.8rem
+}
+
+header p {
+    margin: 0;
+    opacity: .9
+}
+
+main {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1.5rem
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem
+}
+
+.carte {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .12)
+}
+
+.carte .valeur {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: var(--bleu)
+}
+
+.carte .legende {
+    color: var(--gris);
+    font-size: .85rem
+}
+
+h2 {
+    margin: 2rem 0 .75rem;
+    color: #1e3a8a;
+    border-left: 6px solid var(--bleu);
+    padding-left: .6rem
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .12)
+}
+
+th {
+    background: #1e3a8a;
+    color: #fff;
+    text-align: left;
+    padding: .65rem .8rem;
+    font-weight: 600;
+    font-size: .9rem
+}
+
+td {
+    padding: .6rem .8rem;
+    border-bottom: 1px solid #e2e8f0
+}
+
+tbody tr:nth-child(even) {
+    background: #f8fafc
+}
+
+tbody tr:hover {
+    background: var(--bleu-clair)
+}
+
+td.rang {
+    font-weight: 700;
+    color: var(--gris);
+    width: 3rem
+}
+
+td.moyenne {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600
+}
+
+.absent {
+    color: #94a3b8;
+    font-style: italic
+}
+
+.badge {
+    display: inline-block;
+    padding: .15rem .65rem;
+    border-radius: 999px;
+    font-size: .8rem;
+    font-weight: 600
+}
+
+.reussite {
+    background: var(--vert-clair);
+    color: var(--vert)
+}
+
+.echec {
+    background: var(--rouge-clair);
+    color: var(--rouge)
+}
+
+.major td {
+    background: #fef9c3 !important
+}
+
+footer {
+    text-align: center;
+    color: var(--gris);
+    font-size: .8rem;
+    padding: 2rem 1rem
+}
+
+@media (max-width:640px) {
+
+    th:nth-child(5),
+    td:nth-child(5) {
+        display: none
+    }
+}
+
+@media print {
+    header {
+        background: #1e3a8a !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact
+    }
+
+    .carte,
+    table {
+        box-shadow: none;
+        border: 1px solid #cbd5e1
+    }
+}

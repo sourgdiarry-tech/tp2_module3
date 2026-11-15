@@ -1,0 +1,17 @@
+ETAPE 2 - Les moyennes
+001 BA Awa = 10.67
+002 Diallo Moussa = 11.67
+003 Ndiaye Fatou = 14.25
+004 Sarr Ibrahima = 8.00
+005 Diop Aissatou = 12.50
+006 Faye Cheikh = 6.00
+007 Gueye Mariama = 9.00
+008 Diallo Aminata = 12.33
+009 Ba Mamadou = 15.33
+010 Ndiaye Khadija = 8.67
+011 Sow Ousmane = 10.67
+012 Kane Awa = 10.00
+
+Moyenne generale = 10.88
+Formule utilisee : sum(//note) div count(//note)
+Major = 009 Ba Mamadou avec 15.33

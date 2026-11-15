@@ -1,0 +1,7 @@
+ETAPE 1 - Les comptages
+count(//etudiant) = 12
+count(//note) = 34
+count(//etudiant[email]) = 9
+
+Pourquoi 9 et pas 12 pour les emails ?
+Parce que 3 etudiants n'ont pas d'email : 002 Diallo, 006 Faye, 012 Kane.

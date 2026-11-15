@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tableau.xsl"?>
+<promotion annee="2026-2027" filiere="Licence 1">
+  <etudiant matricule="ISEP26-001" classe="L1-A">
+    <nom>Sow</nom>
+    <prenom>Fatou</prenom>
+    <email>fatou.sow@exemple.sn</email>
+    <notes>
+      <note matiere="XML">14</note>
+      <note matiere="XSD">16</note>
+      <note matiere="XPath">15</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-002" classe="L1-A">
+    <nom>Diallo</nom>
+    <prenom>Moussa</prenom>
+    <notes>
+      <note matiere="XML">9</note>
+      <note matiere="XSD">11</note>
+      <note matiere="XPath">8</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-003" classe="L1-B">
+    <nom>Ba</nom>
+    <prenom>Aïssatou</prenom>
+    <email>aissatou.ba@exemple.sn</email>
+    <notes>
+      <note matiere="XML">17</note>
+      <note matiere="XSD">15</note>
+      <note matiere="XPath">18</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-004" classe="L1-B">
+    <nom>Gueye</nom>
+    <prenom>Cheikh</prenom>
+    <email>cheikh.gueye@exemple.sn</email>
+    <notes>
+      <note matiere="XML">10</note>
+      <note matiere="XSD">12</note>
+      <note matiere="XPath">10</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-005" classe="L1-A">
+    <nom>Sarr</nom>
+    <prenom>Khady</prenom>
+    <email>khady.sarr@exemple.sn</email>
+    <notes>
+      <note matiere="XML">12.5</note>
+      <note matiere="XSD">13</note>
+      <note matiere="XPath">11.5</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-006" classe="L1-B">
+    <nom>Faye</nom>
+    <prenom>Ibrahima</prenom>
+    <notes>
+      <note matiere="XML">7</note>
+      <note matiere="XSD">9</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-007" classe="L1-A">
+    <nom>Thiam</nom>
+    <prenom>Mariama</prenom>
+    <email>mariama.thiam@exemple.sn</email>
+    <notes>
+      <note matiere="XML">15</note>
+      <note matiere="XSD">14</note>
+      <note matiere="XPath">16</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-008" classe="L1-B">
+    <nom>Cissé</nom>
+    <prenom>Ousmane</prenom>
+    <email>ousmane.cisse@exemple.sn</email>
+    <notes>
+      <note matiere="XML">11</note>
+      <note matiere="XSD">10</note>
+      <note matiere="XPath">12</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-009" classe="L1-A">
+    <nom>Mbaye</nom>
+    <prenom>Rokhaya</prenom>
+    <email>rokhaya.mbaye@exemple.sn</email>
+    <notes>
+      <note matiere="XML">13</note>
+      <note matiere="XSD">12</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-010" classe="L1-B">
+    <nom>Diouf</nom>
+    <prenom>Pape</prenom>
+    <email>pape.diouf@exemple.sn</email>
+    <notes>
+      <note matiere="XML">8</note>
+      <note matiere="XSD">10</note>
+      <note matiere="XPath">9</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-011" classe="L1-A">
+    <nom>Sène</nom>
+    <prenom>Ndèye</prenom>
+    <email>ndeye.sene@exemple.sn</email>
+    <notes>
+      <note matiere="XML">16</note>
+      <note matiere="XSD">17</note>
+      <note matiere="XPath">15</note>
+    </notes>
+  </etudiant>
+  <etudiant matricule="ISEP26-012" classe="L1-B">
+    <nom>Kane</nom>
+    <prenom>Abdoulaye</prenom>
+    <notes>
+      <note matiere="XML">10</note>
+      <note matiere="XSD">9</note>
+      <note matiere="XPath">11</note>
+    </notes>
+  </etudiant>
+</promotion>
